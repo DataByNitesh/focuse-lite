@@ -1,0 +1,21 @@
+# Gradle / Android build output
+.gradle/
+build/
+/app/build/
+local.properties
+.kotlin/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# Personal screen dumps from adb recon — may contain personal info, never upload
+recon/
+recon.zip
+*.xml.dump
+
+# Signing keys: only the shared DEBUG key in keystore/ is committed on purpose.
+*.jks
+release.keystore

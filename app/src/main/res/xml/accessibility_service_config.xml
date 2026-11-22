@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    accessibilityEventTypes: only "a window/screen changed" and "content inside a window changed".
+    flagReportViewIds: gives us resource ids like "clips_tab" (the main detection signal).
+    canRetrieveWindowContent: lets us read the screen structure of the monitored apps.
+    notificationTimeout: the system batches events of the same type to at most one per 200 ms.
+    The list of apps we receive events from is set at runtime from config/SupportedApps.kt.
+-->
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeWindowStateChanged|typeWindowContentChanged"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:accessibilityFlags="flagReportViewIds"
+    android:canRetrieveWindowContent="true"
+    android:description="@string/accessibility_service_description"
+    android:notificationTimeout="200" />

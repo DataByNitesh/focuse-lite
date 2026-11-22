@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FocusLite</string>
+    <string name="accessibility_service_label">FocusLite blocker</string>
+    <string name="accessibility_service_description">FocusLite looks at the screen structure of Instagram, YouTube and Facebook only, to detect Reels, Shorts and Explore and send you back. It does not read messages or passwords, does not store screen text, and never sends anything off your phone (the app has no internet permission).</string>
+</resources>
